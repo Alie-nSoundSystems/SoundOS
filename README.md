@@ -22,4 +22,4 @@ Specifications:
  
 Versions:
  - Beta 0.0.1: Added Background & Lockscreen module
- ![Alt text](/Images/0-0-1_Beta.jpeg)
+ ![Alt text](/Images/0-0-1_Beta.jpg)
