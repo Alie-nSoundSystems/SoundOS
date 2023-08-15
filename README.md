@@ -24,15 +24,15 @@ Modules:
  - Background module (Image can be replaced, but can't be deactivated, must be the resolution of 480x320)
  - Lockscreen module
 
-- --- Coming in future releases ---
+ - Coming in future releases :
 
- - Weather forecast module
- - DSP module
- - SD Card MP3 Player module
- - Digital Volume/Mute Control module (using MIKROE-4560 - "Volume 2 Click")
- - Digital Crossover module (using MIKROE-4104 - "Audio Xover Click")
- - RGB LED Control module (using MIKROE-3078 - "RGB DRIVER CLICK")
- - Digital Potentiometer module (using MIKROE-4596 - "DIGI POT 8 CLICK")
+   - Weather forecast module
+   - DSP module
+   - SD Card MP3 Player module
+   - Digital Volume/Mute Control module (using MIKROE-4560 - "Volume 2 Click")
+   - Digital Crossover module (using MIKROE-4104 - "Audio Xover Click")
+   - RGB LED Control module (using MIKROE-3078 - "RGB DRIVER CLICK")
+   - Digital Potentiometer module (using MIKROE-4596 - "DIGI POT 8 CLICK")
  
 Versions:
 ---------
