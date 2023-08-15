@@ -7,7 +7,7 @@ and uses an I2C modul called "MIKROE-4431" to process digitally the audio signal
 Basic features:
  - You can control the DSP via the touchscreen interface (Volume, Bass, Mid, Treble)
  - You can add a fingerprint sensor to ensure the security of your music :-)
- - Based on [@username] https://github.com/Bodmer 's OpenWeather and TFT_eSPI library (Lots of thanks to @Bodmer!)
+ - Based on Bodmer's OpenWeather and TFT_eSPI library (Lots of thanks to @Bodmer!)
  - Last, but not least you can activate/deactivate modules on SoundOS depending on your needs
  
 Modules:
@@ -19,3 +19,7 @@ Modules:
 Specifications:
  - Based on the Raspberry Pico W board
  - 
+ 
+Versions:
+ - Beta 0.0.1
+ ![Alt text](/Images/0-0-1_Beta.jpeg)
