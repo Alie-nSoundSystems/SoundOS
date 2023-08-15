@@ -21,5 +21,5 @@ Specifications:
  - 
  
 Versions:
- - Beta 0.0.1: 
- ![Alt added Background & Lockscreen Module](/Images/0-0-1_Beta.jpeg)
+ - Beta 0.0.1: Added Background & Lockscreen module
+ ![Alt text](/Images/0-0-1_Beta.jpeg)
