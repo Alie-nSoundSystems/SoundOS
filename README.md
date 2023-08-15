@@ -37,4 +37,5 @@ Modules:
 Versions:
 ---------
  - Beta 0.0.1: Added Background & Lockscreen module (Sorry for bad image quality)
+ 
  ![Alt text](/Images/0-0-1_Beta.jpg)
