@@ -23,7 +23,9 @@ Modules:
 --------
  - Background module (Image can be replaced, but can't be deactivated, must be the resolution of 480x320)
  - Lockscreen module
- --- Coming in future releases ---
+
+-- Coming in future releases ---
+--------------------------------
  - Weather forecast module
  - DSP module
  - SD Card MP3 Player module
