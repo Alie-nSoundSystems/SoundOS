@@ -7,17 +7,20 @@ This project is based on the cheap, but powerful Raspberry Pico W and on an ILI9
 and uses an I2C modul called "MIKROE-4431" to process digitally the audio signal.
 
 Specifications:
+---------------
  - Based on the Raspberry Pico W board
  - 3.5" ILI9488 TFT Touchscreen module (with XPT2046)
  - Unlock can also be done with AS608 Generic Optical Fingerprint Sensor (optional)
 
 Basic features:
+---------------
  - You can control the DSP via the touchscreen interface (Volume, Bass, Mid, Treble)
  - You can add a fingerprint sensor to ensure the security of your music :-)
  - Based on Bodmer's OpenWeather and TFT_eSPI library (Lots of thanks to Bodmer!)
  - Last, but not least you can activate/deactivate modules on SoundOS depending on your needs
  
 Modules:
+--------
  - Background module (Image can be replaced, but can't be deactivated, must be the resolution of 480x320)
  - Lockscreen module
  --- Coming in future releases ---
