@@ -6,9 +6,14 @@ written in C for Arduino IDE.
 This project is based on the cheap, but powerful Raspberry Pico W and on an ILI9488 3.5" TFT Touchscreen,
 and uses an I2C modul called "MIKROE-4431" to process digitally the audio signal.
 
+
+
 BREAKING NEWS:
 --------------
 The v0.0.1 will be soon released! So stay tuned!
+------------------------------------------------
+
+
 
 Specifications:
 ---------------
