@@ -12,8 +12,7 @@ BREAKING NEWS:
 --------------
 The v0.0.1 released just NOW! Stay tuned for more updates!
 ------------------------------------------------
- 
- - 
+ DO NOT FORGET: YOU ARE WELCOME IN THE DEV TEAM
  
 Specifications:
 ---------------
