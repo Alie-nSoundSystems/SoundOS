@@ -61,4 +61,4 @@ Release Notes & Versions:
  
  - v0.0.1 : Improved Background & Lockscreen module ; Added Current Weather module ; Improved sketch looking
  
- ![Alt text](/Images/v0-0-1.jpg)
+ ![Alt text](/Images/v0-0-1_Fprint_Conn.gif)
