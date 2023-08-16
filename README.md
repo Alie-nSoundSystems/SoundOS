@@ -6,19 +6,15 @@ written in C for Arduino IDE.
 This project is based on the cheap, but powerful Raspberry Pico W and on an ILI9488 3.5" TFT Touchscreen,
 and uses an I2C modul called "MIKROE-4431" to process digitally the audio signal.
 
--
--
--
-
+ - 
+ 
 BREAKING NEWS:
 --------------
-The v0.0.1 will be soon released! So stay tuned!
+The v0.0.1 released just NOW! Stay tuned for more updates!
 ------------------------------------------------
-
--
--
--
-
+ 
+ - 
+ 
 Specifications:
 ---------------
  - Based on the Raspberry Pico W board
@@ -57,9 +53,13 @@ Overview of modules:
  - Very Simple Block Diagram drawn also by me :-D
  
  ![Alt text](/Images/VerySimplifiedBlockDiagram.jpg)
-   
-Versions:
----------
+
+Release Notes & Versions:
+-------------------------
  - Beta 0.0.1: Added Background & Lockscreen module (Sorry for bad image quality)
  
  ![Alt text](/Images/0-0-1_Beta.jpg)
+ 
+ - v0.0.1 : Improved Background & Lockscreen module ; Added Current Weather module ; Improved sketch looking
+ 
+ ![Alt text](/Images/v0-0-1.jpg)
