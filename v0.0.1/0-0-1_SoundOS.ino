@@ -48,8 +48,8 @@ if(Setup_IS_Complete == 1)  {
     wifi.pushImage(0, 0, 24, 24, Wifi_Icon); // If Wi-Fi isn't connected, push the wifi icon to the right upper corner and draw a line across it
     wifi.pushSprite(446, 0, TFT_WHITE);
     tft.drawLine(446, 24, 470, 0, TFT_BLACK);
-    delay(1000);
-    rp2040.reboot();
+    delay(1000); // Some Delay
+    rp2040.reboot(); // Rebooting the RasPi
   }
 
   ////////////////// TimeClient Function ////////////////////
@@ -79,16 +79,16 @@ void loop() {
   clockNTP.setTextColor(TFT_WHITE);
   clockNTP.setCursor(25, 70);
   clockNTP.print(timeClient.getFormattedTime());
-  clockNTP.pushToSprite(&login, 120, 10, TFT_BLACK);
+  clockNTP.pushToSprite(&login, 120, 10, TFT_BLACK); //Push ClockNTP sprite to Login Sprite
   if(AuthState == 0)  {
     login.pushSprite(0, 30);
-    printCurrentWeather();
+    printCurrentWeather(); // Print Current Weather Info Function
     tft.setFreeFont(FF21);
     tft.setCursor(163, 310);
     tft.print("- SoundOS v0.0.1 -");
   }
   #ifdef FINGERPRINT_AUTH
-    getFingerprintIDez();
+    getFingerprintIDez(); //FingerPrint Reading Cycle
     if(AuthState == 1)  {
       tft.fillScreen(TFT_BLACK);
     }
