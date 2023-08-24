@@ -1,18 +1,13 @@
-iWelcome to the Project Page of SoundOS!
+Welcome to the Project Page of SoundOS!
 ---------------------------------------
 SoundOS is a lightweight operating system
 -----------------------------------------
 written in C for Arduino IDE.
 This project is based on the cheap, but powerful Raspberry Pico W and on an ILI9488 3.5" TFT Touchscreen,
-and uses an I2C modul called "MIKROE-4431" to process digitally the audio signal.
+and uses an I2C DSP integrated circuit called "ADAU1701" (from Analog Devices) to process digitally the audio signal.
 
- - 
- 
-BREAKING NEWS:
---------------
-The v0.0.1 released just NOW! Stay tuned for more updates!
-------------------------------------------------
  DO NOT FORGET: YOU ARE WELCOME IN THE DEV TEAM
+----------------------------------------------
  
 Specifications:
 ---------------
