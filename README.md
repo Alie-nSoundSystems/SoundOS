@@ -1,4 +1,4 @@
-Welcome to the Project Page of SoundOS!
+iWelcome to the Project Page of SoundOS!
 ---------------------------------------
 SoundOS is a lightweight operating system
 -----------------------------------------
@@ -24,7 +24,7 @@ Basic features:
 ---------------
  - You can control the DSP via the touchscreen interface (Volume, Bass, Mid, Treble)
  - You can add a fingerprint sensor to ensure the security of your music :-)
- - Based on Bodmer's OpenWeather and TFT_eSPI library (Lots of thanks to Bodmer!)
+ - Based on Bodmer's OpenWeather and TFT_eSPI library (Lots of thanks to @Bodmer!)
  - Last, but not least you can activate/deactivate modules on SoundOS depending on your needs
  
 Modules:
@@ -38,7 +38,7 @@ Modules:
 
    - DSP module (with the help of ADAU1701 DSP IC from AnalogDevices)
    - SD Card MP3 Player module
-   - Digital Volume/Mute Control module (using the M62429 IC powered board)
+   - Digital Volume/Mute Control module (using the DSP ic)
    - Digital Crossover module (also using ADAU1701)
    - RGB LED Control module (using MIKROE-3078 - "RGB DRIVER CLICK")
    - Digital Potentiometer module (using MIKROE-4596 - "DIGI POT 8 CLICK")
