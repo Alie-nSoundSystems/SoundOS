@@ -48,7 +48,7 @@
     if (finger.verifyPassword()) {
       //tft.fillScreen(TFT_WHITE);
       tft.drawRect(140, 255, 200, 5, TFT_BLACK);
-      for(uint8_t compload; compload<=199; ++compload){
+      for(uint8_t compload; compload<=199; ++compload){ //for function (some test)
         tft.setFreeFont(FF24);
         tft.setTextColor(TFT_WHITE);
         tft.setCursor(45, 140);
@@ -57,11 +57,11 @@
         delay(10);
       }
       /////////////////////////////////////////////////////////////
-      Setup_IS_Complete=1;
-      setup();
+      Setup_IS_Complete=1; //Set this 1 if the first part of setup had already ran
+      setup(); //Go back to setup function
     } else {
       boot.createSprite(480, 320);
-      boot.setSwapBytes(true);
+      boot.setSwapBytes(true); //Must set this if you want to draw images
       tft.drawRect(140, 255, 200, 5, TFT_BLACK);
       for(loadbar; loadbar<=99; ++loadbar){
         tft.fillRect(141, 256, loadbar, 3, TFT_BLACK);
@@ -79,7 +79,7 @@
         tft.print("SoundOS");
         tft.setCursor(90, 200);
         tft.print("Waiting for fingerprint sensor.  ");
-        reboot_text();
+        reboot_text(); //Text for reboot
         //BtLOOP();
         delay(1000);
         tft.fillScreen(TFT_PURPLE);
@@ -105,13 +105,13 @@
         tft.print("SoundOS");
         tft.setCursor(90, 200);
         tft.print("Waiting for fingerprint sensor  .");
-        reboot_text();
+        reboot_text(); //Text function
         //BtLOOP();
         delay(1000);
         cntr++;
         if (cntr > 5)  {
           cntr=0;
-          rp2040.reboot();
+          rp2040.reboot(); //Reboot RasPi
         }
       }
     }
